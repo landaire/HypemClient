@@ -15,6 +15,15 @@ namespace Hype.HypeApi
 
 		[DataMember(Name="title")]
 		public string Title { get; internal set; }
+
+		[DataMember(Name="thumb_url")]
+		public string ThumbnailUrlSmall { get; internal set; }
+
+		[DataMember(Name="thumb_url_medium")]
+		public string ThumbnailUrlMedium { get; internal set;}
+
+		[DataMember(Name="thumb_url_large")]
+		public string ThumbnailUrlLarge { get; internal set;}
 	}
 }
 
