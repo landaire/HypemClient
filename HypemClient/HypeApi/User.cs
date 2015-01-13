@@ -22,8 +22,6 @@ namespace Hype.HypeApi
 
 			using (var stream = new System.IO.StreamReader(response.GetResponseStream())) {
 				string json = stream.ReadToEnd ();
-				Console.WriteLine (json);
-//				var songs = JObject.Parse (json);
 				return JsonConvert.DeserializeObject<Song[]> (json);
 			}
 		}

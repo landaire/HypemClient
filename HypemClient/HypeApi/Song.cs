@@ -23,7 +23,9 @@ namespace Hype.HypeApi
 		public string ThumbnailUrlMedium { get; internal set;}
 
 		[DataMember(Name="thumb_url_large")]
-		public string ThumbnailUrlLarge { get; internal set;}
+		public string ThumbnailUrlLarge { get; internal set; }
+
+		public 
 	}
 }
 

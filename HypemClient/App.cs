@@ -12,8 +12,6 @@ namespace HypemClient
 			User lander = new User("landaire");
 			Song[] favorites = lander.Favorites (1, 20);
 
-			favorites = favorites.Where((favorite) => { return favorite.Title.StartsWith("S"); }).ToArray();
-
 			var listView = new ListView {
 				ItemsSource = favorites,
 				ItemTemplate = new DataTemplate(typeof(TextCell)),

@@ -13,6 +13,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)HypeApi\Song.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)HypeApi\User.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)HypeApi\ApiClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SongCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)HypeApi\" />
